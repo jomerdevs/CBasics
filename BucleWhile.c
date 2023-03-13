@@ -16,9 +16,9 @@ int main() {
 
 	while (flag == false) {
 		printf("Ingrese su contraseña: ");
-		scanf_s("%d", &password);		
+		scanf("%d", &password);		
 		printf("Por favor confirmar contraseña: ");
-		scanf_s("%d", &confirmPassword);
+		scanf("%d", &confirmPassword);
 		printf("\n"); // salto de linea
 
 		if (password == confirmPassword) {
