@@ -21,10 +21,10 @@ int main() {
 
 	while (continuar == false) {
 		printf("Ingrese el primer número: ");
-		scanf_s("%d",&numero1);
+		scanf("%d",&numero1);
 		printf("\n");
 		printf("Ingrese el segundo número: ");
-		scanf_s("%d", &numero2);
+		scanf("%d", &numero2);
 		
 		printf("\nIngrese opción que desea realizar: \n");
 		printf("1) Suma\n");
@@ -32,7 +32,7 @@ int main() {
 		printf("3) Multiplicación\n");
 		printf("4) División\n");
 		printf("5) Salir del programa\n");
-		scanf_s("%d",&opcion);
+		scanf("%d",&opcion);
 
 		switch (opcion) {
 			case 1: suma = numero1 + numero2;
